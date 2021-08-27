@@ -49,15 +49,15 @@ umask u=rw,g=wx,o=x
 cp a dir: rx for source dir, wx for target dir
 cp a file: r for source file, wx for target dir
 delete a file: rw for source dir, no permissions for target file
-cd into a dir: r for source dir
-ls: r for target file
+cd into a dir: rx for target dir
+ls: r for target dir
 cat/more: r for target file
-modify: r for target file
+modify: rw for target file
 
 18.
-tocuh file
+touch file
 chmod 444 file
-nano file (file is unwriteable)
+nano file (file is unwritable)
 
 19.
 x for files gives you the permission to execute them, but for dirs it gives you the permission to enter it

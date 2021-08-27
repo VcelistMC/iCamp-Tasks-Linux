@@ -13,8 +13,8 @@ sudo diff passwd /etc/passwd
 sudo cmp passwd /etc/passwd
 sudo nano passwd
 //wrote "test new line"
+sudo diff passwd /etc/passwd
 sudo cmp passwd /etc/passwd
-sudo nano passwd
 
 5.
 sudo ln -s /etc/passwd /boot
