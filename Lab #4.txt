@@ -1,0 +1,24 @@
+1.
+tar -tf test
+
+2.
+sudo tar -cf etc_backup /etc/*
+
+3.
+ls -id / /etc /etc/hosts
+
+4.
+sudo cp /etc/passwd .
+sudo diff passwd /etc/passwd
+sudo cmp passwd /etc/passwd
+sudo nano passwd
+//wrote "test new line"
+sudo cmp passwd /etc/passwd
+sudo nano passwd
+
+5.
+sudo ln -s /etc/passwd /boot
+
+6.
+sudo ln /etc/passwd /boot
+ln: failed to create hard link '/boot/passwd': File exists
