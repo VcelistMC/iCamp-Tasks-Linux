@@ -1,4 +1,4 @@
-#! bin/bash
+#! /bin/bash
 echo Enter a char
 read char
 case $char in
